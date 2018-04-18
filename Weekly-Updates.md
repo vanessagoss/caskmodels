@@ -18,10 +18,14 @@
 
 ### Update: 2018/04/17
 
-* Uploaded all MCNP input files on private caskmodels repo 
-* Madicken does not recommend installing Cadis-Omega on Savio
-* Need to redefine the source in the VCC_Detector input file because CADIS does not support the existing source definition 
-* Need point of contact at ORNL 
+* Completed: Uploaded all MCNP input files on private caskmodels repo. This includes Garretts input file from his savio account and my version with the NaI detector. 
+* Completed: Spoke to Madicken and she does not recommend installing Cadis-Omega on Savio
+* Completed: Spoke to Garrett to about the issues I was having he recommended copying his files directly from savio account
+* Completed: Updated VCC_Rebar-Cart.inp to include a NaI detector and verified that I am getting counts in it
+* In Progress: Still getting "bad surface type" despite all attempts I have made to debug including copying Garrett's file and running it without any changes 
+* Error Details: I get error that says "bad surface type" after about 500000 particles. I am running this input with MCNP5, the same as Garrett. I believe Emily is getting the same error when she runs it. I also tried running it on my machine.
+* Goals: Need to redefine the source in the VCC_Detector input file because CADIS does not support the existing source definition according to the manual 
+* Goals: Need point of contact at ORNL 
 
 ### Update: 2016/03/30
 
