@@ -1,4 +1,5 @@
 ### Update List
+* [Update: 2018/04/17](#update-20170417)
 * [Update: 2016/03/30](#update-20160330)
 * [Update: 2016/02/11](#update-20160211)
 * [Update: 2015/10/07](#update-20151007)
@@ -17,7 +18,10 @@
 
 ### Update: 2018/04/17
 
-
+* Uploaded all MCNP input files on private caskmodels repo 
+* Madicken does not recommend installing Cadis-Omega on Savio
+* Need to redefine the source in the VCC_Detector input file because CADIS does not support the existing source definition 
+* Need point of contact at ORNL 
 
 ### Update: 2016/03/30
 
